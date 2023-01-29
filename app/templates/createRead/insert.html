@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<span class="title">
+    <h1>{% block title %} insert Data {% endblock %}</h1>
+</span>
+<div class="questions">
+    <h2>Insert data into db</h2>
+    <form action="test/" method="post">
+        <input type="text" placeholder="Enter first name" name="fname" required>
+        <input type="text" placeholder="Enter last name" name="lname" required>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+{% endblock %}
