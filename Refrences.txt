@@ -1,0 +1,1 @@
+01./ https://help.pythonanywhere.com/pages/environment-variables-for-web-apps/ --> To set env variables in web app hosted on pythonAnywhere
